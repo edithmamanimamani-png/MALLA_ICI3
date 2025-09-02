@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Malla ICI — Interactiva</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+  <h1>Ingeniería Civil Industrial — Malla Interactiva</h1>
+  <div class="controls">
+    <input id="search" type="search" placeholder="Buscar por código o nombre…">
+    <select id="filter-area">
+      <option value="">Todas las áreas</option>
+      <option value="FG">FG — Formación General</option>
+      <option value="FB">FB — Formación Básica</option>
+      <option value="FP">FP — Formación Profesional</option>
+      <option value="AP">AP — Actividad Práctica</option>
+      <option value="AT">AT — Actividad de Titulación</option>
+    </select>
+    <button id="clear">Limpiar</button>
+  </div>
+  <p class="hint">Clic en un ramo para ver detalles y resaltar prerrequisitos.</p>
+</header>
+
+<main id="grid" class="grid"></main>
+
+<footer class="site-footer">
+  <small>Template MIT • Edita <code>data/courses.json</code> para personalizar.</small>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

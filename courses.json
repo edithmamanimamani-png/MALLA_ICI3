@@ -23,7 +23,7 @@
   { "code": "ME263", "name": "Termodinámica", "area": "FP", "hours": 4, "semester": 4, "prereq": ["QU833","MA602","ME167"] },
   { "code": "IN605", "name": "Contabilidad y Costos", "area": "FP", "hours": 4, "semester": 4, "prereq": ["IN600"] },
 
-  { "code": "FI604", "name": "Electromagnetismo", "area": "FB", "hours": 6, "semester": 5, "prereq": ["FI035","MA612","MEA602"] },
+  { "code": "FI604", "name": "Electromagnetismo", "area": "FB", "hours": 6, "semester": 5, "prereq": ["FI035","MA612","MA602"] },
   { "code": "MA424", "name": "Estadística y Probabilidad", "area": "FB", "hours": 4, "semester": 5, "prereq": ["MA602"] },
   { "code": "ME445", "name": "Operaciones Unitarias", "area": "FP", "hours": 6, "semester": 5, "prereq": ["ME260","ME263"] },
   { "code": "ME264", "name": "Mecánica de Fluidos", "area": "FP", "hours": 6, "semester": 5, "prereq": ["ME263"] },

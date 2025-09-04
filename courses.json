@@ -29,13 +29,13 @@
   { "code": "ME264", "name": "Mecánica de Fluidos", "area": "FP", "hours": 6, "semester": 5, "prereq": ["ME263"] },
   { "code": "IN054", "name": "Microeconomía", "area": "FP", "hours": 4, "semester": 5, "prereq": ["IN605"] },
 
-  { "code": "IN006", "name": "Formación Cultural", "area": "FG", "hours": 2, "semester": 6, "prereq": ["MA067","MA069","FI035","IN043","IN048","MA611","MA601","QU833","ME167","IN060","MA602","MA612","FI601","CC802","IN055","MA603","MA220","ME260","ME263","IN605"] },
+  { "code": "IN006", "name": "Formación Cultural", "area": "FG", "hours": 2, "semester": 6, "prereq": ["MA067","MA069","FI035","IN043","IN048","MA611","MA601","QU833","ME167","MA602","MA612","FI601","CC802","IN055","MA603","MA220","ME260","ME263","IN605"] },
   { "code": "IN009", "name": "Investigación Operativa I", "area": "FP", "hours": 4, "semester": 6, "prereq": ["MA424","CC802"] },
   { "code": "IN010", "name": "Ingeniería Económica", "area": "FP", "hours": 4, "semester": 6, "prereq": ["IN054"] },
   { "code": "ME266", "name": "Procesos Industriales y Manufactura", "area": "FP", "hours": 6, "semester": 6, "prereq": ["ME264","ME445","FI604"] },
   { "code": "IN156", "name": "Macroeconomía", "area": "FP", "hours": 4, "semester": 6, "prereq": ["IN054"] },
   { "code": "IN011", "name": "Taller de Integración", "area": "FP", "hours": 4, "semester": 6, "prereq": ["MA067","MA069","FI035","IN043","IN048","MA601","MA611","QU833","ME167","IN600","MA602","MA612","FI601","CC802","IN055","MA603","MA220","ME260","ME263","IN605","FI604","MA424","ME445","ME264","IN054"] },
-  
+
   { "code": "IN217", "name": "Gestión de Operaciones I", "area": "FP", "hours": 7, "semester": 7, "prereq": ["IN009","ME266"] },
   { "code": "IN014", "name": "Finanzas", "area": "FP", "hours": 5, "semester": 7, "prereq": ["IN010"] },
   { "code": "IN434", "name": "Marketing", "area": "FP", "hours": 4, "semester": 7, "prereq": ["IN054"] },
@@ -47,7 +47,7 @@
   { "code": "IN063", "name": "Sistema de Gestión y Aseguramiento de la Calidad", "area": "FP", "hours": 5, "semester": 8, "prereq": ["IN217","IN059"] },
   { "code": "IN064", "name": "Modelos Estocásticos", "area": "FP", "hours": 4, "semester": 8, "prereq": ["IN059","IN009"] },
   { "code": "IN065", "name": "Econometría", "area": "FP", "hours": 6, "semester": 8, "prereq": ["IN059","IN156"] },
-  { "code": "IN066", "name": "Primera Práctica Profesional", "area": "AP", "hours": 0, "semester": 8, "prereq": ["IN061","IN062","MA067","MA069","FI035","IN043","IN048","MA601","MA611","QU833","ME167","IN006","MA602","MA612","FI601","CC802","IN055","MA603","MA220","ME260","ME263","IN605","FI604","MA424","ME445","ME264","IN054","IN006", "IN009", "IN010", "ME266", "IN156", "IN011", "IN217", "IN014", "IN434", "IN049", "IN059"] },
+  { "code": "IN066", "name": "Primera Práctica Profesional", "area": "AP", "hours": 0, "semester": 8, "prereq": ["IN061","IN062","MA067","MA069","FI035","IN043","IN048","MA601","MA611","QU833","ME167","IN006","MA602","MA612","FI601","CC802","IN055","MA603","MA220","ME260","ME263","IN605","FI604","MA424","ME445","ME264","IN054","IN009","IN010","ME266","IN156","IN011","IN217","IN014","IN434","IN049","IN059"] },
 
   { "code": "DI088", "name": "Inglés Comunicacional Preintermedio I", "area": "FG", "hours": 3, "semester": 9, "prereq": ["IN011"] },
   { "code": "IN067", "name": "Dirección Estratégica", "area": "FP", "hours": 6, "semester": 9, "prereq": ["IN062","IN061"] },
@@ -62,9 +62,8 @@
   { "code": "YY036-4", "name": "E.F.P. IV (Electivo de Formación Profesional)", "area": "EFP", "hours": 4, "semester": 10, "prereq": [] },
   { "code": "IN070-10", "name": "Segunda Práctica Profesional", "area": "AP", "hours": 0, "semester": 10, "prereq": ["IN066"] },
 
-
   { "code": "IN071", "name": "Electivo Seminario", "area": "FP", "hours": 5, "semester": 11, "prereq": [] },
-  { "code": "IN070-11", "name": "Segunda Práctica Profesional I", "area": "AP", "hours": 0, "semester": 11, "prereq": ["IN066"] },
+  { "code": "IN070-11", "name": "Segunda Práctica Profesional", "area": "AP", "hours": 0, "semester": 11, "prereq": ["IN066"] },
 
-  { "code": "IN072", "name": "Actividad de Titulación", "area": "AT", "hours": 0, "semester": 12, "prereq": ["IN070-11","IN071","IN070-10"] }
+  { "code": "IN072", "name": "Actividad de Titulación", "area": "AT", "hours": 0, "semester": 12, "prereq": ["IN070-10","IN070-11","IN071"] }
 ]

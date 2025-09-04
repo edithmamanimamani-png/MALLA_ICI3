@@ -19,7 +19,7 @@
 
   { "code": "MA603", "name": "Cálculo III", "area": "FB", "hours": 8, "semester": 4, "prereq": ["MA602"] },
   { "code": "MA220", "name": "Ecuaciones Diferenciales", "area": "FB", "hours": 6, "semester": 4, "prereq": ["MA612","MA602"] },
-  { "code": "ME260", "name": "Ingeniería de Materiales", "area": "FP", "hours": 6, "semester": 4, "prereq": ["FI601","] },
+  { "code": "ME260", "name": "Ingeniería de Materiales", "area": "FP", "hours": 6, "semester": 4, "prereq": ["FI601"] },
   { "code": "ME263", "name": "Termodinámica", "area": "FP", "hours": 4, "semester": 4, "prereq": ["QU833","MA602","ME167"] },
   { "code": "IN605", "name": "Contabilidad y Costos", "area": "FP", "hours": 4, "semester": 4, "prereq": ["IN600"] },
 

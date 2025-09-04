@@ -60,11 +60,11 @@
   { "code": "YY036-2", "name": "E.F.P. II (Electivo de Formación Profesional)", "area": "EFP", "hours": 4, "semester": 10, "prereq": [] },
   { "code": "YY036-3", "name": "E.F.P. III (Electivo de Formación Profesional)", "area": "EFP", "hours": 4, "semester": 10, "prereq": [] },
   { "code": "YY036-4", "name": "E.F.P. IV (Electivo de Formación Profesional)", "area": "EFP", "hours": 4, "semester": 10, "prereq": [] },
-  { "code": "IN070", "name": "Segunda Práctica Profesional", "area": "AP", "hours": 0, "semester": 10, "prereq": ["IN066"] },
+  { "code": "IN070-10", "name": "Segunda Práctica Profesional", "area": "AP", "hours": 0, "semester": 10, "prereq": ["IN066"] },
 
 
   { "code": "IN071", "name": "Electivo Seminario", "area": "FP", "hours": 5, "semester": 11, "prereq": [] },
-  { "code": "IN070-1", "name": "Segunda Práctica Profesional I", "area": "AP", "hours": 0, "semester": 11, "prereq": ["IN066"] },
+  { "code": "IN070-11", "name": "Segunda Práctica Profesional I", "area": "AP", "hours": 0, "semester": 11, "prereq": ["IN066"] },
 
-  { "code": "IN072", "name": "Actividad de Titulación", "area": "AT", "hours": 0, "semester": 12, "prereq": ["IN070-1","IN071","IN070"] }
+  { "code": "IN072", "name": "Actividad de Titulación", "area": "AT", "hours": 0, "semester": 12, "prereq": ["IN070-11","IN071","IN070-10"] }
 ]

@@ -29,7 +29,7 @@
   { "code": "ME264", "name": "Mecánica de Fluidos", "area": "FP", "hours": 6, "semester": 5, "prereq": ["ME263"] },
   { "code": "IN054", "name": "Microeconomía", "area": "FP", "hours": 4, "semester": 5, "prereq": ["IN605"] },
 
-  { "code": "IN006", "name": "Formación Cultural", "area": "FG", "hours": 2, "semester": 6, "prereq": ["MA067","MA069","FI035","IN043","IN048","MA611","MA601","QU833","ME167","MA602","MA612","FI601","CC802","IN055","MA603","MA220","ME260","ME263","IN605"] },
+  { "code": "IN006", "name": "Formación Cultural", "area": "FG", "hours": 2, "semester": 6, "prereq": ["MA067","MA069","FI035","IN043","IN048","MA611","MA601","QU833","ME167","IN600","MA602","MA612","FI601","CC802","IN055","MA603","MA220","ME260","ME263","IN605"] },
   { "code": "IN009", "name": "Investigación Operativa I", "area": "FP", "hours": 4, "semester": 6, "prereq": ["MA424","CC802"] },
   { "code": "IN010", "name": "Ingeniería Económica", "area": "FP", "hours": 4, "semester": 6, "prereq": ["IN054"] },
   { "code": "ME266", "name": "Procesos Industriales y Manufactura", "area": "FP", "hours": 6, "semester": 6, "prereq": ["ME264","ME445","FI604"] },
@@ -60,10 +60,9 @@
   { "code": "YY036-2", "name": "E.F.P. II (Electivo de Formación Profesional)", "area": "EFP", "hours": 4, "semester": 10, "prereq": [] },
   { "code": "YY036-3", "name": "E.F.P. III (Electivo de Formación Profesional)", "area": "EFP", "hours": 4, "semester": 10, "prereq": [] },
   { "code": "YY036-4", "name": "E.F.P. IV (Electivo de Formación Profesional)", "area": "EFP", "hours": 4, "semester": 10, "prereq": [] },
-  { "code": "IN070-10", "name": "Segunda Práctica Profesional", "area": "AP", "hours": 0, "semester": 10, "prereq": ["IN066"] },
 
   { "code": "IN071", "name": "Electivo Seminario", "area": "FP", "hours": 5, "semester": 11, "prereq": [] },
-  { "code": "IN070-11", "name": "Segunda Práctica Profesional", "area": "AP", "hours": 0, "semester": 11, "prereq": ["IN066"] },
+  { "code": "IN070", "name": "Segunda Práctica Profesional", "area": "AP", "hours": 0, "semester": 11, "prereq": ["IN066"] },
 
-  { "code": "IN072", "name": "Actividad de Titulación", "area": "AT", "hours": 0, "semester": 12, "prereq": ["IN070-10","IN070-11","IN071"] }
+  { "code": "IN072", "name": "Actividad de Titulación", "area": "AT", "hours": 0, "semester": 12, "prereq": ["IN070","IN071"] }
 ]

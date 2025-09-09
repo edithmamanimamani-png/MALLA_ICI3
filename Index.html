@@ -1,37 +1,36 @@
 <!doctype html>
 <html lang="es">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Malla ICI — Interactiva</title>
-  <!-- Ruta corregida al CSS -->
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 <header class="site-header">
-  <h1>Ingeniería Civil Industrial — Malla Interactiva</h1>
+  <h1>Malla ICI — Interactiva</h1>
   <div class="controls">
-    <input id="search" type="search" placeholder="Buscar por código o nombre…">
+    <input id="search" type="search" placeholder="Buscar por código o nombre…" />
     <select id="filter-area">
       <option value="">Todas las áreas</option>
       <option value="FG">FG — Formación General</option>
       <option value="FB">FB — Formación Básica</option>
       <option value="FP">FP — Formación Profesional</option>
-      <option value="AP">AP — Actividad Práctica</option>
-      <option value="AT">AT — Actividad de Titulación</option>
+      <option value="EFP">EFP — Electivos Profesionales</option>
+      <option value="AP">AP — Prácticas</option>
+      <option value="AT">AT — Titulación</option>
     </select>
     <button id="clear">Limpiar</button>
   </div>
-  <p class="hint">Clic en un ramo para ver detalles y resaltar prerrequisitos.</p>
+  <p class="hint">Clic en un ramo para ver detalles y resaltar sus prerrequisitos.</p>
 </header>
 
 <main id="grid" class="grid"></main>
 
 <footer class="site-footer">
-  <small>Template MIT • Edita <code>data/courses.json</code> para personalizar.</small>
+  <small>Hecho con ♥. Edita <code>data/courses.json</code> para actualizar la malla.</small>
 </footer>
 
-<!-- Ruta corregida al JS -->
-<script src="js/script.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
